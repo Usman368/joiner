@@ -1,0 +1,18 @@
+/* .animatedBox {
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  font: 24px sans-serif;
+  color: white;
+  text-shadow: 0px 0px 12px black;
+  background-image: url('https://cdn.barnimages.com/wp-content/uploads/2019/03/20190203-barnimages-1-770x513.jpg');
+  background-position: bottom left;
+  border: 1px solid black;
+  animation: moveBg 10s ease 1s 2 alternate none;
+}
+
+@keyframes moveBg {
+	100% {
+	  background-position: bottom right;
+	}
+} */

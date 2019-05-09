@@ -1,0 +1,86 @@
+<!-- <body>
+  <div class="fluid-container" id = "container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-lg-6 container">
+          <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo">Courses</button>
+          <hr>
+          <div id="demo" class="collapse">
+            <p>Testing...</p>
+          </div>
+        </div>
+        <div class="col-lg-6 container">
+            <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#assignments">Assignments</button>
+            <hr>
+            <div id="assignments" class="collapse">
+              <app-assignment></app-assignment>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body> -->
+<!-- <button class="btn btn-primary" (click)="getPosts()">Submit</button>
+
+<div *ngFor="let post of posts | async ">
+  {{ post | json }}
+</div> -->
+<!-- <div class="fluid-container">
+  <div class="row">
+    <div class="col-lg-6"> <button class="btn btn-success" (click)="webCourse()" > Web Course </button> <br>
+      <div *ngIf="test" id="append">
+      {{ data1 }}
+    </div>
+ </div>
+    <div class="col-lg-6"> <button class="btn btn-success" (click)="aspCourse()">.net Course </button> <br>
+        <div *ngIf="test2" id="append2">
+        {{ data2 }}
+    </div>
+  </div>
+</div>
+</div> -->
+<div id="div4">
+  <div class="fluid-container">
+      <div class="row" id="div1">
+        <div class="container col-lg-5">
+          <div>
+              <button class="btn btn-success" (click)="web_assign()" > Web Engineering  </button>
+              <li *ngFor="let response1 of responses1">
+                {{ response1 }}
+              </li>
+          </div>
+        </div>
+        <div class="container col-lg-5">
+            <div>
+                <button class="btn btn-success" (click)="asp_assign()" > ASP.net   </button>
+                <li *ngFor="let response2 of responses2">
+                  {{ response2 }}
+                </li>
+            </div>
+          </div>
+          <br><br><br><br><br><br><br>
+      </div>
+      <div class=" container-row" id="div2">
+          <div class="row">
+              <div class="container col-lg-5">
+                <div>
+                    <button class="btn btn-success" (click)="aoa_assign()" > Java</button>
+                    <li *ngFor="let response3 of responses3">
+                      {{ response3 }}
+                    </li>
+                </div>
+              </div>
+              <div class="container col-lg-5">
+                  <div>
+                      <button class="btn btn-success" (click)="aI_assign()" > Machine Learning</button>
+                      <li *ngFor="let response4 of responses4">
+                        {{ response4 }}
+                      </li>
+                  </div>
+                </div>
+                <br><br><br><br><br><br><br>
+            </div>
+      </div>
+        </div>
+  </div>
+
